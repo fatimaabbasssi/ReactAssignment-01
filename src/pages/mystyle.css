@@ -165,7 +165,7 @@ align-items: center;
 .box{
     width: 280px;
     height: 180px;
-   background-color: #e5ff00c0;
+   background-color:  #ffc727;
     border:  1px solid #ffc727;
     padding: 2em 1em;
     border-radius: 12px;
@@ -179,8 +179,9 @@ align-items: center;
 }
 
 .box:hover{
-    background-color: #ffe600;
+    background-color: rgb(253, 211, 44);
     border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .extra-icons{
