@@ -8,17 +8,7 @@ const Detailpage = () => {
         let  { id } = useParams();
         let  [recipe, setRecipe] = useState({})
 
-        // let fetrecipe = async () =>{
-        //     try {
-        //         let res = await fetch(`https://dummyjson.com/recipes/${id}`)
-        //         res = res.json()
-        //         setRecipe(res)
-        //     } catch (error) {
-        //         console.log(error);
-                
-        //     }
-        // }
-    
+      
         useEffect(() => {
             // fetrecipe()
             fetch(`https://dummyjson.com/recipes/${id}`)

@@ -3,7 +3,6 @@
 import { useState , useEffect } from 'react'
 import biryani from "../assets/biryani.png"
 import InputComponent from '../components/input';
-import { useLoaderData } from 'react-router-dom';
 const Menu = () => {
 
   
